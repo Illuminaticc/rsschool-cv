@@ -12,7 +12,7 @@ body {
 /* Styles for header section */
 header {
   height: 230px;
-  width: 100%;
+  width: 1400px;
   margin: 0 auto;
   background-color: #003147;
   color: #fff;
@@ -193,7 +193,7 @@ footer {
   padding: 0.5em;
   background-color: #003147;
   text-align: center;
-  width: 1400px;
+  width: 1425px;
 }  
 
 .footer-logo {

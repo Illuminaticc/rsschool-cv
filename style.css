@@ -1,0 +1,233 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    padding-top: 10px;
+    min-width: 1200px;
+  }
+  
+  /* Styles for header section */
+  header {
+    height: 230px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #003147;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    padding-top: 10px;
+  }
+  
+  .img-container { 
+    background-size: cover;
+    width: 180px;
+    height: 170px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: 100%;       
+  }
+  
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 1000px;
+    }  
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 0.5em;  
+    width: 25%;
+    background-color: #C2CAD0;
+    text-align: center;  
+    }
+  
+  .contact, .skill, .language {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: left;
+    width: 90%;
+  }
+  
+  .logo-container {
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: wheat;
+    margin-top: 10px;
+  }
+  
+  .logo-display {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+  }
+  
+  .logo-info p {
+    font-style: Times;
+    font-size: 19px;
+    color: black;
+    padding-left: 7px;
+    padding-top: 10px;
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: 100%;       
+  }
+  
+  .desc {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: #003147;
+  }
+  
+  .skill-number ul{
+    display: inline-block;
+    text-align: left;
+    padding-top: 20px;
+  }
+  
+  .skill-number ul li {
+    padding-top: 10px;
+    font-style: Times;
+    font-size: 21px;
+    color: black;
+  }
+  
+  .lang-number ul{
+    display: inline-block;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 60px;
+  }
+  
+  .lang-number ul li {
+    padding-top: 20px;
+    font-style: Times;
+    font-size: 21px;
+    color: black;
+  }
+  
+  .about-logo {
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: wheat;
+    margin: 0 auto;
+    float: left;
+  }
+  
+  .about-logo img{
+    width: 100%;
+    height: 100%;  
+  }
+  
+  .about-me {
+    height: 40px;
+    margin-top: 20px;
+  }
+  
+  .about-me p {
+    margin-left: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+  }
+  
+  .column {
+    margin: 0.2em;
+    min-height: 8em;
+    padding: 1em;
+    width: 70%;
+    height: 900px;
+    }
+  
+  .info {
+    width: 100%;
+    height: 100%px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: 0.2em;
+    padding: 0.5em;
+    background-color: #003147;
+    text-align: center;
+  }  
+  
+  .footer-logo {
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: wheat;
+    margin: 0 auto;
+    float: left;
+  }
+  
+  .footer-logo img{
+    width: 100%;
+    height: 100%;  
+  }
+  
+  span {
+    padding-top: 10px;
+    color: white;
+  }
+  
+  h3 {
+    padding-left: 50px;
+    font-style: Times;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  h2 {
+    font-style: Times;
+    font-weight: 400;
+    font-size: 27px;
+    color: white;
+  }
+  
+  p {
+    font-style: Times;
+    font-weight: 30;
+    font-size: 21px;
+    color: black;
+  }
+  

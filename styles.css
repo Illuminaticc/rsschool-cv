@@ -52,6 +52,8 @@ nav {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
+  align-items: center;
+  flex: 0 0 340px;
   margin: 0.2em;
   min-height: 8em;
   padding: 0.5em;  
@@ -62,10 +64,12 @@ nav {
 
 .contact, .skill, .language {
   display: flex;
+  flex: 0 0 48px;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: left;
   width: 90%;
+  padding-left: 10px;
 }
 
 .logo-container {
@@ -101,8 +105,10 @@ nav {
 }
 
 .desc {
-  width: 60%;
+  display: block;
+  width: 80%;
   margin: 0 auto;
+  
   margin-top: 5px;
   background-color: #003147;
 }
@@ -187,6 +193,7 @@ footer {
   padding: 0.5em;
   background-color: #003147;
   text-align: center;
+  width: 1400px;
 }  
 
 .footer-logo {

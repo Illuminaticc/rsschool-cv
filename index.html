@@ -6,6 +6,14 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#about">About me</a></li>
+      <li><a href="#exper">Experience</a></li>
+      <li><a href="#educ">Education</a></li>
+      <li><a href="#code">Code</a></li>
+    </ul>
+  </nav>
   <header>
     <div class="img-container">
       <img src="images/logo.jpeg" alt="avatar">
@@ -14,11 +22,11 @@
     <span>Front-end Developer</span>
   </header>
 
-
   <div class="row">
-    <nav>    
+    <div class="all">    
       <div class="contact">
         <div class="desc"><h2>Contacts</h2></div>
+        <div class="logo-center">
           <div class="logo-display">
             <div class="logo-container">
               <img src="images/call.png" alt="phone">
@@ -42,6 +50,7 @@
                 <img src="images/telegram.png" alt="telegram">
               </div>
               <div class="logo-info"><p>@nevalucky</p></div>
+            </div>
             </div>
       </div>
       <div class="skill">
@@ -69,27 +78,25 @@
         </div>
         
       </div>
-    </nav>
+    </div>
 
     <main class="column">
       <div class="about-me">
         <div class="about-logo">
           <img src="images/about.png" alt="about">
           </div>
-          <h3>About me</h3>
+          <h3><a name="about"></a>About me</h3>
       </div>
     <div class="info">
       <p>I like to learn new technologies and try to create something interesting. My first programming language was C#.</p>
       <p>After a while, I became interested in the python backend and took several internship courses. </p>
       <p>Since the backend is closely related to the frontend, I decided to try myself as a web developer.</p>
-      <p>I have a great desire to learn new things, I would like to work in a team on a useful project.</p>
-
     </div>
     <div class="about-me">
       <div class="about-logo">
         <img src="images/exper.png" alt="experience">
         </div>
-        <h3>Experience</h3>
+        <h3><a name="exper"></a>Experience</h3>
     </div>
     
     <div class="info">
@@ -100,7 +107,7 @@
     <div class="about-logo">
       <img src="images/education.png" alt="education">
       </div>
-      <h3>Education</h3>
+      <h3><a name="educ"></a>Education</h3>
   </div>
   <div class="info">
 
@@ -113,14 +120,14 @@
   <div class="about-logo">
     <img src="images/code.png" alt="code">
     </div>
-    <h3>Code</h3>
+    <h3><a name="code"></a>Code</h3>
 </div>
 <div class="info">
 
   <p>In this task, two strings of the form: 03 November 2017 04:17 are passed to our test DateTime function.</p>
   <p>You need to turn the strings into dates, compare them. For the one that is bigger, get the day of the week and return it from the function.</p>
   <pre>function testDateTime(a, b) {
-    let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+    let days = ['Monday', 'Tuesday', <br>'Wednesday', 'Thursday', <br>'Friday', 'Saturday', 'Sunday']
     let f = new Date(a);
     let s = new Date(b);
     if (f > s){
@@ -145,13 +152,13 @@
 <footer>
   <div class="footer">
     <div class="footer-logo">
-      <a href="https://github.com/Illuminaticc/rsschool-cv"><img src="images/github.png" alt="rsshool"></a>
+      <a href="https://github.com/Illuminaticc"><img src="images/github.png" alt="rsshool"></a>
       </div>
   </div>
   <span>2023</span>
   <div class="footer">
     <div class="footer-logo">
-      <a href="https://app.rs.school"><img src="images/rs.png" alt="rsshool"></a>
+      <a href="https://rs.school/js-stage0/"><img src="images/rs.png" alt="rsshool"></a>
       </div>
   </div>
 

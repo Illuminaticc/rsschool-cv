@@ -63,8 +63,7 @@
             <li>Russian (Fluent)</li>
             <li>English (Intermediate)</li>
           </ul>
-        </div>
-        
+        </div>  
       </div>
     </nav>
     <main class="column">
@@ -115,11 +114,11 @@
     let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
     let f = new Date(a);
     let s = new Date(b);
-    if (f > s){
+    if (f &gt; s){
         let d = f.getDay();
         return days[d];
     }
-    else if (s > f){
+    else if (s &gt; f){
         let d = s.getDay();
         return days[d];
     }
